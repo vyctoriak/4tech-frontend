@@ -3,8 +3,10 @@ import Header from '../../components/Header/Header';
 import Post from '../../components/Post/Post';
 import { Container } from '@material-ui/core';
 
-import './Timeline.css';
 import { getPost } from '../../services/post';
+import Upload from '../../components/Upload/Upload';
+
+import './Timeline.css';
 
 const Timeline = () => {
 
@@ -24,6 +26,7 @@ const Timeline = () => {
         <Fragment>
             <Header />
             <Container className="timeline" >
+                <Upload />
 
                 {
                     posts.map(post => {
