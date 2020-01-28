@@ -21,7 +21,7 @@ const Upload = () => {
                         />
                         <DropzoneArea
                             dropzoneText='Select or drop your image'
-                            dropzoneClass='dropArea'
+                            dropzoneClass='droparea'
                             filesLimit={1}
                             onChange={(files) => setImage(files)}
                             acceptedFiles={['image/*']}
