@@ -9,7 +9,7 @@ import {
 import Login from './containers/Login/Login';
 import Timeline from './containers/Timeline/Timeline';
 
-import PrivateRoute from './components/PrivateAuth/PrivateAuth';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 import './App.css';
 
